@@ -1,0 +1,122 @@
+/*Header*/
+.Content{
+    padding-left:8%;
+    padding-right:5%;
+}
+#HeaderRow1
+{
+    background-color: crimson;
+    color:white;
+}
+#HeaderToprow
+{
+    display: flex;
+    justify-content: space-between;
+}
+#HeaderToprow p{
+    font-size: large;
+}
+#HeaderRow2
+{
+    display: flex;
+    font-size: large;
+    align-items: flex-end;
+}
+/*End of header*/
+#LoginMain{
+    width: 100%;
+    margin-top: 5%;
+}
+#Login{
+    width: 70%;
+    float: left;
+}
+#Login h1{
+   
+    color:white;
+    background-color: crimson;
+    padding-left: 1%;
+    background: linear-gradient(to right, Crimson 0%, transparent 100%);
+    width:80%;
+    text-shadow: 2px 2px 2px black;
+}
+input[type=text],[type=password]
+{
+    width: 80%;
+    height: 40px;
+}
+#Login button{
+    width: 81%;
+    height: 40px;
+}
+#LoginColumn2
+{
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+#LoginColumn2 img{
+    margin-top: 10%;
+    width: 100%;
+    height:23em;
+    margin-right: 10%;
+}
+#LoginColumn2 img:hover{
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px 4px crimson;
+    transform: scale3d(1.2);
+    transition:0.3s;
+    width: 105%;
+    height:23.2em;
+}
+#LoginButton{
+    font-size: large;
+    color:white;
+    border-radius: 5px;
+    background: crimson;
+}
+#LoginButton:hover{
+    box-sizing: border-box;
+    box-shadow: 3px 3px 2px 3px black;
+}
+#NewUserButton{
+    font-size: large;
+    color:white;
+    border-radius: 5px;
+    background: crimson;
+}
+#NewUserButton:hover{
+    box-sizing: border-box;
+    box-shadow: 3px 3px 2px 3px black;
+}
+
+/*footer*/
+#footerLastRow
+{
+    float: left;
+    background-color:#161748;
+    width: 100%;
+    color: white;
+    margin-top: 3%;
+}
+#leftLastRow
+{
+    float: left;
+    width: 70%;
+}
+#rightLastRow
+{
+    width: 20%;
+    margin-top: 2%;
+    float: right;
+}
+#rightLastRow a{
+    margin-right: 8%;
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+

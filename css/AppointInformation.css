@@ -1,0 +1,34 @@
+body
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+table{
+    border: 4px solid rgb(77, 29, 139);
+    text-align: center;
+}
+table tr td{
+    
+    border: 2px solid rgb(77, 29, 139);
+}
+#h1Line
+{
+    font-size: 50px;
+    color: rgba(33, 221, 228, 0.842);
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+}
+#BakcHome
+{
+    margin-top: 1em;
+    width: 100px;
+    height: 30px;
+    background: rgb(40, 8, 61);
+    color:white;
+    font-family: Arial Black;
+}
+#BakcHome:hover{
+    box-sizing: border-box;
+    box-shadow: 1px 1px 7px black;
+}

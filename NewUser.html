@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <link rel="stylesheet" type="text/css" href="./css/NewUser.css">
+    <script src="./script/LoginPageScript.js"></script>
+</head>
+<body>
+    <div id="MainContent">
+        <h1>Registration Form</h1>
+        <p><a href="./index.html" target="_parent">X</a></p>
+        <div id="RadioOptions">
+            <div id="radioDoctor">
+                <input type="radio" name="radio" value="Doctor">
+                <label style="font-size:large">Doctor</label>
+            </div>
+            <div id="radioPatient">
+                <input type="radio" name="radio" value="Patient">
+                <label style="font-size:large;">Patient</label>
+            </div>
+        </div>
+        <input class="InputClass" type="text" id="userName" placeholder="Enter User Name...">
+        <input class="InputClass" type="text" id="lastName" placeholder="Enter Last Name...">
+        <input class="InputClass" type="text" id="email" placeholder="Enter Email...">
+        <input class="InputClass" type="password" id="password" placeholder="Enter password...">
+        <input class="InputClass" type="password" id="ConfirmPassword" placeholder="Enter Comnfirm password...">
+        <button id="register" onclick="ConfirmUser()">Register Now</button>
+    </div>
+</body>
+</html>

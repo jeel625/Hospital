@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title>
+    <link rel="stylesheet" href="./css/loginPageStyle.css" text="type/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./script/LoginPageScript.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="top"></div>
+        <div id="HeaderRow1">
+            <div class="Content">
+                <div id="HeaderToprow">
+                    <h3>Welcome the LifeCare Hospital</h3>
+                    <p><b>514 934-1934</b> | info@lifecarehospital.com | <b>Montreal</b></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End of the Header-->
+    <!--Body Section-->
+    <div class="Content">
+            <div id="LoginMain">
+                <div id="Login">
+                    <h1>User Login</h1>
+                    <h2>User Name </h2>
+                    <input type="text" id="userName"  placeholder="Enter User name...." required="true">
+                    <h2>Password</h2>
+                    <input type="password" id="passWord" placeholder="Enter password...." required=true><br><br>
+    
+                    <button id="LoginButton" onclick="LogIn()">Login</button><br><br>
+                    <a href="./NewUser.html"><button id="NewUserButton">New User</button></a>
+                </div>
+                <div id="LoginColumn2">
+                    <img src="./img/hospital.jpg">
+                </div>
+            </div>
+    </div>
+    <div id="footerLastRow"> 
+        <div class="Content">
+            <div id="leftLastRow">
+                <h3>2022 &copy; All Rights Reserved | Designed and Developed by Jeel Patel</h3>
+            </div>
+            <div id="rightLastRow">
+                <a class="fa fa-facebook-f" href="https://www.facebook.com/" target="_blank"></a>
+                <a class="fa fa-instagram" href="https://www.instagram.com/" target="_blank"></a>
+                <a class="fa fa-twitter" href="https://twitter.com/i/flow/login" target="_blank"></a>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>

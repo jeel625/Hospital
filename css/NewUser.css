@@ -1,0 +1,76 @@
+body{
+    background-image: url('../img/pexels-anna-shvets-3786215.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+ 
+
+#MainContent
+{
+    overflow: auto;
+    z-index: 1;
+    position: fixed;
+    top:20%;
+    left: 27%;
+    box-sizing: border-box;
+    width: 50%;
+    height:70%;
+}
+#MainContent h1
+{
+    color: white;
+    background: linear-gradient(to right,Crimson 0%,transparent 100%);
+    text-shadow: 2px 2px 2px black;
+    margin-left:2%;
+}
+.InputClass
+{
+    width: 80%;
+    height: 7%;
+    margin:1% 5%;
+    border: 2px solid crimson;
+    color: white;
+
+}
+#MainContent p a
+{
+    position: absolute;
+    left:90%;
+    top:5%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border:2px solid black;
+    font-size: 30px;
+    text-decoration-line: none;
+    color:white;
+    background-color:crimson;
+}
+#RadioOptions
+{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#register
+{
+    margin:2% 5%;
+    width: 82%;
+    height: 9%;
+    background-color:crimson;
+    color:white;
+    font-size: larger;
+}
+#register:hover{
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+}
+input[type=text],input[type=password]
+{
+    background: transparent;
+}
+input[type=text]::placeholder,input[type=password]::placeholder
+{
+    color: white;
+}

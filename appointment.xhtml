@@ -1,0 +1,144 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/appointment.css" text="type/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="./script/appointment.js"></script>
+</head>
+
+<body onload="timeCounter()">
+    <header>
+        <div id="HeaderRow1">
+            <div class="Content">
+                <div id="HeaderToprow">
+                    <h3>Welcome the LifeCare Hospital</h3>
+                    <p><b>514 934-1934</b> | info@lifecarehospital.com | <b>Montreal</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="Content">
+            <div id="HeaderRow2">
+                <div id="HeaderLogo"><a href="./homePage.html"><img src="./img/logo2.png" /></a></div>
+                <div id="HeaderMenu">
+                    <ul>
+                        <li><a href="./homePage.html" target="_self">Home</a></li>
+                        <li><a href="./appointment.xhtml" target="_self">Appoinment</a></li>
+                        <li><a href="./staff.xhtml" target="_self">Staff</a></li>
+                        <li><a href="./contactUs.xhtml" target="_self">Contact</a></li>
+                        <li><a href="./AboutUs.xhtml" target="_self">About</a></li>
+                        <li><a href="./index.html" target="_self">LogOut</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="HeaderImage">
+            <img src="./img/hms1.jpg"/>
+        </div>
+    </header>
+
+    <!--End of header-->
+    <div id="mainContent" class="Content">
+        <h1>
+            Make An Apponitment
+        </h1>
+        <div id="inputfields">
+            <input type="text" id="fname" placeholder="First Name.." />
+            <input type="text" id="lname" placeholder="Last Name.." />
+            <input type="number" id="getNumber" placeholder="Enter Number.." /><br/>
+            <select id="getGender">
+                <option>Male</option>
+                <option>Female</option>
+            </select><br/>
+            <input id="getDate" type="date"/>
+            <select id="getTime">
+                <option>10:00 AM - 01:00 PM</option>
+                <option>04:00 PM - 07:00 PM</option>
+            </select>
+            <input type="text" id="email" placeholder="Enter Email.." /><br/>
+            <input type="text" id="city" placeholder="City" /><br/>
+            <select id="appointment" size="1" >
+                <option value="v1">Appointment For</option>
+                <option value="v2">Cardiology</option>
+                <option value="v3">ENT-Head and Neck Surgery</option>
+                <option value="v4">Orthopedic Surgery</option>
+                <option value="v5">General and Laparoscopic Surgery</option>
+                <option value="v6">Dental, Oral and Maxillofacial Surgery</option>
+                <option value="v7">Psychiatrist</option>
+                <option value="v8">Gynaecologist</option>
+                <option value="v9">Paediatrician</option>
+                <option value="v10">Health Check-Up</option>
+            </select>
+            <br/>
+            <select id="doctor">
+                <option value="dc1">Select Doctor</option>
+                <option value="dc2">Dr. Tanvi Patel (Cardiologist)</option>
+                <option value="dc3">Dr. Jeel Patel (Laparoscopic Surgeon)</option>
+                <option value="dc4">Dr. Ishu Patel (Oral and Maxillofacial Surgeon)</option>
+                <option value="dc5">Dr. Rashmi Patel (Dental)</option>
+                <option value="dc6">Dr. Parul Patel (Orthopedic Surgeon)</option>
+                <option value="dc7">Dr. Harshil Patel (ENT Surgeon)</option>
+                <option value="dc8">Dr. Priya Patel (Oral and Maxillofacial Surgeon)</option>
+                <option value="dc9">Dr. Riya Patel (Psychiatrist)</option>
+                <option value="dc10">Dr. Prachi Patel (Gynaecologist)</option>
+                <option value="dc11">Dr. Nirav Patel (Paediatrician)</option>
+                <option value="dc12">Dr. Kodee (Cardiologist)</option>
+                <option value="dc13">Dr. Himadri Patel (Physician)</option>
+                <option value="dc14">Dr. Yagnesh Patel (Gynaecologist)</option>
+            </select><br/>
+            <textarea placeholder="Write Your Problem...."></textarea><br/>
+            <button type="submit" id="button">Submit</button>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer> 
+        <div class="Content">
+            <div id="FooterMain">
+                <div id="footerCol1">
+                    <img src="./img/logo1.png" />
+                    <p>
+                        Its also a joint venture of eight surgeons from varied surgical specialities like General and
+                        Laparoscopic surgery, Orthopaedics and Joint replacement surgery, Spine surgery, Head and neck
+                        surgery and Maxillofacial surgery.
+                    </p>
+                </div>
+                <div id="footerCol2">
+                    <h1>Useful Links</h1>
+                    <ul>
+                        <a href="./appointment.xhtml" target="_self" style="color:white;text-decoration:none"><li>Book An Appoinment</li></a>
+                        <a href="./staff.xhtml" target="_self" style="color:white;text-decoration:none"><li>Staff</li></a>
+                        <a href="./AboutUs.xhtml" target="_self"  style="color:white;text-decoration:none"><li>About Us</li></a>
+                        <a href="./contactUs.xhtml" target="_self"  style="color:white;text-decoration:none"><li>Contact Us</li></a>
+                    </ul>
+                </div>
+                <div id="footerCol3">
+                    <h1>Get In Touch</h1>
+                    <a class="fa fa-envelope"> info@lifecarehospital.com</a><br/>
+                    <a class="fa fa-map-marker" target="_blank" href="https://www.google.com/maps/place/My+Little+Cup/@45.5060088,-73.7761561,10.29z/data=!4m5!3m4!1s0x4cc91a4670787e67:0x123e3c1d258bd163!8m2!3d45.5044884!4d-73.5721393"> Montreal</a><br/>
+                    <a class="fa fa-globe" href="#top">https://www.lifecarehospital.com</a><br/>
+                    <a class="fa fa-clock-o"> Monday - Saturday 9 AM to 7 PM
+                        Sunday - Emergency 24x7x365
+                        (on holidays also)
+                         514 417-2509</a><br/>
+                    <a href="#top" class="fa fa-mobile"> 514 417-2509</a><br/>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="footerLastRow"> 
+        <div class="Content">
+            <div id="leftLastRow">
+                <h3>2022 &#169; All Rights Reserved | Designed and Developed by Jeel Patel</h3>
+            </div>
+            <div id="rightLastRow">
+                <a class="fa fa-facebook-f" href="https://www.facebook.com/" target="_blank"></a>
+                <a class="fa fa-instagram" href="https://www.instagram.com/" target="_blank"></a>
+                <a class="fa fa-twitter" href="https://twitter.com/i/flow/login" target="_blank"></a>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,229 @@
+.Content{
+    padding: 0 50px;
+}
+#HeaderRow1
+{
+    background-color: crimson;
+    color:white;
+}
+#HeaderToprow
+{
+    display: flex;
+    justify-content: space-between;
+}
+#HeaderToprow p{
+    font-size: large;
+}
+#HeaderRow2
+{
+    display: flex;
+    font-size: large;
+    align-items: flex-end;
+}
+#HeaderLogo{
+    float: left;
+}
+#HeaderLogo img{
+    width:40%;
+}
+#HeaderMenu{
+    float:left;
+    display: flex;
+   align-items: flex-end;
+}
+#HeaderMenu ul {
+    display: flex;
+    align-items: flex-end;
+}
+#HeaderMenu ul li {
+    list-style: none;
+    color:black;
+    padding-right: 10%;
+}
+#HeaderMenu ul li a{
+    color:black;
+    text-decoration: none; 
+    font-size: larger;
+    display: block;
+    text-align: center;
+}
+#HeaderMenu ul li a:hover{
+    padding-bottom: 8px;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: crimson;
+}
+#HeaderImage img{
+   width: 100%;
+   margin-top: 1%;
+   filter: brightness(60%);
+}
+/*End of header*/
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.topContainer h1{
+    background: linear-gradient(to right,crimson 20%,transparent 60%);
+    color: white;
+}
+.bottomContainer{
+    display: flex;
+    align-items: center;
+}
+.bottomContainer .leftContainer
+{
+    width: 50%;
+    text-align: justify;
+    margin-right: 50px;
+}
+.bottomContainer .rightContainer
+{
+    width: 50%;
+}
+.bottomContainer .rightContainer img{
+    width: 100%;
+    transition: all 1.2s;
+    transition-duration: 0.2s;
+}
+.bottomContainer .rightContainer img:hover
+{
+    transform: scale(1.1);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px 5px crimson;
+}
+#bigHrLine
+{
+    background: crimson;
+}
+
+/* HR LINE */
+
+.middleHrLine{
+    background: crimson;
+    height: 150px;
+    text-align: center;
+    color: #fff;
+    display:flex;
+    justify-content: space-around;
+}
+.informationAboutHospital
+{
+    display:flex;
+}
+.informationAboutHospital .leftContainer
+{
+    width: 40%;
+}
+.informationAboutHospital .rightContainer
+{
+    width: 60%;
+}
+.informationAboutHospital .leftContainer h2{
+    background:linear-gradient(to right,crimson 30%,transparent 100%);
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
+.informationAboutHospital .leftContainer p{
+    text-align:justify;
+}
+.informationAboutHospital .rightContainer
+{
+    margin-left:3%;
+}
+.informationAboutHospital .rightContainer h2{
+    background:linear-gradient(to right,crimson 30%,transparent 100%);
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
+.informationAboutHospital .rightContainer p{
+    text-align:justify;
+    margin: 2%;
+    border: 3px solid #3C346E;
+    border-radius: 6px;
+}
+.informationAboutHospital .rightContainer p:hover{
+    background-color: #161748;
+    color:white;
+}
+
+
+/*Starting of footer*/
+footer{
+    margin-top:5%;
+}
+footer
+{
+    float: left;
+    background-color:#3C346E;
+    color:white;
+}
+#footerCol1 img
+{
+    margin-top: 5%;
+    width: 15%;
+    height: 15%;
+}
+#footerCol1 p
+{
+    color:white;
+    text-align: justify;
+}
+#footerCol1
+{
+    float: left;
+    width: 25%;
+}
+#footerCol2
+{
+    float: left;
+    width: 33%;
+    margin-left: 5%;
+}
+#footerCol2 h1
+{
+    margin-left: 8%;
+    background: linear-gradient(to right,Crimson 0%,transparent 100%);
+}
+#footerCol2 ul li {
+    list-style: none;
+    font-size: large;
+    margin-bottom: 3%;
+}
+#footerCol3
+{
+    float: left;
+    width: 33%;
+}
+#footerCol3 h1{
+    background: linear-gradient(to right,Crimson 0%,transparent 100%);
+}
+#footerCol3 a{
+    margin-bottom: 3%;
+    color: white;
+    text-decoration-line: none;
+}
+#footerLastRow
+{
+    float: left;
+    background-color:#161748;
+    width: 100%;
+    color: white;
+}
+#leftLastRow
+{
+    float: left;
+    width: 70%;
+}
+#rightLastRow
+{
+    width: 20%;
+    margin-top: 2%;
+    float: right;
+}
+#rightLastRow a{
+    margin-right: 8%;
+    text-decoration: none;
+    color:white;
+}
